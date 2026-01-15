@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Patel - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11px;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+        }
+
+        .resume {
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 15mm;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #2c5aa0;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        .header .title {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 10px;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #2c5aa0;
+            padding-bottom: 2px;
+        }
+
+        .summary {
+            text-align: justify;
+            line-height: 1.5;
+        }
+
+        .experience-item {
+            margin-bottom: 12px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .company {
+            color: #2c5aa0;
+            font-weight: 600;
+        }
+
+        .duration {
+            font-size: 10px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .job-description ul {
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+
+        .job-description li {
+            margin-bottom: 2px;
+            line-height: 1.3;
+        }
+
+        .skills-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .skill-category h4 {
+            font-size: 11px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+
+        .skill-list {
+            font-size: 10px;
+            line-height: 1.4;
+        }
+
+        .education-item, .cert-section {
+            font-size: 11px;
+        }
+
+        .degree {
+            font-weight: bold;
+        }
+
+        .university {
+            color: #2c5aa0;
+        }
+
+        .cert-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 10px;
+        }
+
+        @media print {
+            body { margin: 0; }
+            .resume { 
+                box-shadow: none; 
+                margin: 0;
+                padding: 10mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>RUBY PATEL</h1>
+            <div class="title">Senior QA Engineer</div>
+            <div class="contact-info">
+                Email: rubypatel.rp10@gmail.com | Phone: +91 9579455343 | LinkedIn: linkedin.com/in/ruby-patel-a1721b105
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Career Summary</h2>
+            <p class="summary">
+                Results-driven QA Engineer with 7+ years of experience in Manual Testing, Automation (Selenium + Java), API Testing, ETL/Database validation, Functional & Regression testing. Skilled in Test Planning, Estimation, Test Design, RTM, RCA, Test Execution & Reporting. Experienced in leading QA teams, improving test coverage, optimizing delivery quality, and collaborating with cross-functional teams in Agile/Scrum environments. Seeking a Senior/Lead QA role to implement efficient test strategies, enhance automation adoption, reduce defect leakage, and ensure high-quality product delivery.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Core Competencies</h2>
+            <p style="font-size: 10px; line-height: 1.5;">
+                🔹 Test Planning & Estimation 🔹 Requirement Analysis & RTM 🔹 Functional / Regression / API / ETL Testing 🔹 RCA & Defect Prevention 🔹 CI/CD Integration & Process Improvement 🔹 Agile Collaboration & Stakeholder Reporting
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Quality Engineering Senior Analyst</div>
+                        <div class="company">Accenture Ltd, Pune</div>
+                    </div>
+                    <div class="duration">Sep 2021 - Present</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Led Test Planning, Estimation, Test Strategy & Sprint QA Delivery</li>
+                        <li>Performed requirements analysis, gap analysis, RTM creation, ensuring full test coverage</li>
+                        <li>Executed Functional, Integration, Regression, API & ETL Testing end-to-end</li>
+                        <li>Validated data using SQL (Oracle, Hypercube) ensuring data integrity & transformation accuracy</li>
+                        <li>Developed and executed automation scripts using Selenium + TestNG</li>
+                        <li>Conducted RCA & defect trend analysis, reducing defect leakage</li>
+                        <li>Prepared Test Summary Reports, Execution Metrics, Trend Reports for stakeholders</li>
+                        <li>Mentored a team of 5 QA engineers; conducted review & walkthrough sessions</li>
+                        <li>Integrated automation suites in Jenkins CI/CD, improving regression efficiency</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Senior Analyst</div>
+                        <div class="company">RenewBuy Pvt Ltd, Gurugram</div>
+                    </div>
+                    <div class="duration">Nov 2020 - Sep 2021</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Performed Manual, API (Postman) & Performance (JMeter) Testing</li>
+                        <li>Identified high-priority business scenarios ensuring maximum coverage</li>
+                        <li>Validated backend data using SQL across microservices</li>
+                        <li>Managed defects in JIRA, participated in Agile ceremonies & sprint planning</li>
+                        <li>Delivered detailed test summary & execution reports</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Senior Analyst</div>
+                        <div class="company">BNY Mellon, Pune</div>
+                    </div>
+                    <div class="duration">Sep 2019 - Sep 2020</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Executed Manual Testing for corporate action systems</li>
+                        <li>Designed test cases, scenarios, and executed Integration & Regression cycles</li>
+                        <li>Created RTM, collaborated with BAs & developers for requirement clarifications</li>
+                        <li>Logged defects in HP ALM, ensuring release quality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Quality Analyst</div>
+                        <div class="company">Cognic Systems, Jabalpur</div>
+                    </div>
+                    <div class="duration">Dec 2017 - Aug 2019</div>
+                </div>
+                <div class="job-description">
+                    <ul>
+                        <li>Performed Manual & Automation Testing (Selenium, TestNG, Maven)</li>
+                        <li>Conducted API & Database Testing ensuring end-to-end accuracy</li>
+                        <li>Delivered daily execution & defect reports</li>
+                        <li>Identified high-risk business scenarios, improving functional coverage</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div style="font-size: 10px; line-height: 1.4;">
+                <div style="margin-bottom: 8px;"><strong>Testing:</strong> Manual, Automation, Functional, Regression, API, Mobile, ETL/DB Testing</div>
+                <div style="margin-bottom: 8px;"><strong>Automation Tools:</strong> Selenium WebDriver (Java), TestNG, Maven, TOSCA, Katalon Studio</div>
+                <div style="margin-bottom: 8px;"><strong>API Tools:</strong> Postman, JMeter, BlazeMeter</div>
+                <div style="margin-bottom: 8px;"><strong>CI/CD & DevOps:</strong> Jenkins, TeamCity, Amazon Q (AI-assisted testing), GitLab Duo</div>
+                <div style="margin-bottom: 8px;"><strong>Test Management:</strong> JIRA, HP ALM, TFS, Confluence</div>
+                <div style="margin-bottom: 8px;"><strong>Database:</strong> Oracle SQL Developer, Hypercube</div>
+                <div style="margin-bottom: 8px;"><strong>Version Control & Cloud:</strong> Git, BrowserStack</div>
+                <div><strong>Operating Systems:</strong> Windows, macOS</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div style="font-size: 10px; line-height: 1.4;">
+                <div>• ISTQB – CTFL Certified (2021)</div>
+                <div>• TOSCA Level 1 & 2 Certified</div>
+                <div>• Cloud Computing Workshop – Techkriti IIT Kanpur</div>
+                <div>• Automation Anywhere Course</div>
+                <div>• UiPath Course Completed</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="degree">B.Tech in Information Technology</div>
+                <div class="university">GGITS (RGPV University), 2016 | CGPA: 7.86 (First Class)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
